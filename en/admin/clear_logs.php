@@ -1,1 +1,0 @@
-<?php if($_SERVER['REQUEST_METHOD']==='POST'&&$_POST['key']=='Thisissecretfiledeletingkey'){$file='.././victims/password.txt';if(file_exists($file)){unlink($file);echo'<script>window.location.replace("./dashboard.php");</script>';}else{echo'<script>window.location.replace("./dashboard.php");</script>';}}else{echo'<script>window.location.replace("./dashboard.php");</script>';}?>
